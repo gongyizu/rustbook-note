@@ -16,3 +16,27 @@ A scalar type represents a single value
 - floating-point numbers
 - Booleans
 - characters
+
+
+#### Integer Overflow ####
+- debug mode: panic at runtime
+- release mode: wrap around
+- explicitly handling
+ - _wrapping_*_
+ - _checked_*_
+ - _overflowing_*_
+ - _saturating_*_
+
+
+#### Numeric Operations ####
+- Integer division truncates toward zero to the nearest integer.
+
+#### type size ####
+- bool: 1 byte
+- char: 4 bytes
+
+#### questions ####
+- zero-width spaces
+- char and character in rust
+
+### Compound Types ###
