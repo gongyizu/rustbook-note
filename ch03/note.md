@@ -37,7 +37,7 @@ A scalar type represents a single value
 
 #### questions ####
 - zero-width spaces: 零宽度字符，不可见、不可打印的字符
-- char and character in rust: [see more](https://doc.rust-lang.org/book/ch08-02-strings.html#storing-utf-8-encoded-text-with-strings)
+- char and character in Rust: [see more](https://doc.rust-lang.org/book/ch08-02-strings.html#storing-utf-8-encoded-text-with-strings)
 
 ### Compound Types ###
 - tuple: fixed length, once declared, they cannot grow or shrink in size
@@ -48,7 +48,7 @@ A scalar type represents a single value
     - fixed length
     - data allocated on the stack rather than the heap. [More about the stack and heap](https://doc.rust-lang.org/book/ch04-01-what-is-ownership.html#the-stack-and-the-heap)
     - [vector](https://doc.rust-lang.org/book/ch08-01-vectors.html)
-    - if index is greater than or equal to the array length, rust will panic 
+    - if index is greater than or equal to the array length, Rust will panic 
 
 ### Functions ###
 - Rust code uses snake case as the conventional style for function and variable names
@@ -57,3 +57,6 @@ A scalar type represents a single value
 
 - **Statements** are instructions that perform some action and do not return a value.
 - **Expressions** evaluate to a resultant value.
+
+### Functions ###
+- Rust will not automatically try to convert non-Boolean types to a Boolean.
